@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/asset/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Feux-Tricolor</h1>
+        </header>
+        {% block body%}
+            <section>
+                <div id="Feux1">
+                    <div id="color1" class="feux"></div>
+                    <div id="color2" class="feux"></div>
+                    <div id="color3" class="feux"></div>
+                </div>
+                <div id="Feux2">
+                    <div id="color4" class="feux"></div>
+                    <div id="color5" class="feux"></div>
+                    <div id="color6" class="feux"></div>
+                </div>
+            </section>
+        {% endblock body%}
+        <footer></footer>
+        <script src="/asset/js/script.js">
+        </script>
+    </body>
+</html>

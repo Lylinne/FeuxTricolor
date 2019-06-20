@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    width: 50%;
+    height: 50vh;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+#Feux1, #Feux2{
+    width: 7%;
+    height: 15%;
+    border: 2px solid;
+    padding: 0.5%;
+    margin-top: 3%;
+}
+.feux{
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: 17%;
+    margin-top: 3%;
+    width: 50%;
+    height: 2vh;
+}
+#color3, #color6{
+    background-color: rgb(243, 21, 21);
+}
+#color2, #color5{
+    background-color: rgb(243, 88, 16);
+}
+#color1, #color4{
+    background-color: rgb(31, 187, 17);
+}

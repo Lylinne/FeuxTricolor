@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  app:
+    container_name: FireTricolor
+    restart: unless-stopped
+    build: ./docker
+    image: blog-dev
+    volumes:
+      - ${PWD}/www:/var/www
+    ports:
+      - 8080:80
+    networks:
+      - blog
+    env_file:
+      - .env
+
+
+networks: 
+  blog:
+    driver: bridge
